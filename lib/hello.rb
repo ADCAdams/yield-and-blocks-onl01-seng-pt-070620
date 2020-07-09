@@ -21,7 +21,7 @@ hello_t(["Tim", "Tom", "Jim"]) do |name|
   end
 end
 
-hello_t() do |name|
+hello_t("ok") do |name|
   if name.start_with?("T")
     puts "Hi, #{name}"
   end
